@@ -41,6 +41,7 @@ export function init(debug: boolean): void {
     })
     .then(() => {
       viewport.bindCssVars();
+      viewport.expand()
     });
 
   // Define components-related CSS variables.
